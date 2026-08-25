@@ -1,0 +1,21 @@
+# Renewal, Pricing & Billing — Tasks
+
+- [ ] Add pricing/renewal migration with indexes/unique constraints.
+- [ ] Add decimal-safe Money utilities.
+- [ ] Implement all committed pricing policies and margin/minimum guardrails.
+- [ ] Implement price preview, review state, publish and immutable history.
+- [ ] Implement deterministic renewal term key and state machine.
+- [ ] Seed default 180/60/30 policy and service overrides.
+- [ ] Implement renewal-action idempotency claim/result/retry.
+- [ ] Implement scheduler due-step query.
+- [ ] Implement 180-day staff/client handlers.
+- [ ] Implement 60-day staff/client/open-window handlers.
+- [ ] Implement BillingOrchestrator.
+- [ ] Implement 30-day ensure/send invoice handlers.
+- [ ] Implement invoice cancel/delete reconciliation.
+- [ ] Implement payment hooks + repair reconciliation.
+- [ ] Implement paid/fulfilment-required and manual completion.
+- [ ] Implement renewal-group compatibility and distinct invoice-line refs.
+- [ ] Implement audit/event emissions and retry/failure queue.
+- [ ] Add unit + concurrency/idempotency tests.
+- [ ] Add early-renewal, standard auto-invoice and pricing-review-block E2E.
